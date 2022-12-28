@@ -2,7 +2,25 @@
   text-align: center;
 }
 
-.point {
-  font-size: 20px;
-  text-align: left;
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  border: 5px;
+  background-color: bisque;
+  padding: 18px;
+  gap: 22px;
+}
+
+.one {
+  text-align: center;
+  background-color: lightcoral;
+}
+
+.two {
+  text-align: center;
+  background-color: lightgrey;
+}
+
+.flex-container > div {
+  flex: 1;
 }
